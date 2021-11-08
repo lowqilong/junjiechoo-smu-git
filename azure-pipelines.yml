@@ -20,7 +20,7 @@ variables:
   environmentName: 'SPMG8T2App'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: $(System.DefaultWorkingDirectory)
+  projectRoot: $(System.DefaultWorkingDirectory)/flask
 
   # Python version: 3.7
   pythonVersion: '3.7'
