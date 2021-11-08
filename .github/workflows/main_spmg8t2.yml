@@ -39,7 +39,7 @@ jobs:
         with:
           name: python-app
           path: |
-            . 
+            flask
             !venv/
 
   deploy:
