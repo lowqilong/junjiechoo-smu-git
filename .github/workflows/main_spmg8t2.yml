@@ -29,6 +29,11 @@ jobs:
       
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Run application
+        run: |
+          cd flask
+          python manage.py runserver
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
