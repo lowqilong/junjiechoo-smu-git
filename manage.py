@@ -16,6 +16,7 @@ manager = Manager(create_app)
 manager.add_command('db', MigrateCommand)
 manager.add_command('init_db', InitDbCommand)
 
+
 if __name__ == "__main__":
     # python manage.py                      # shows available commands
     # python manage.py runserver --help     # shows available runserver options
